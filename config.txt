@@ -1,0 +1,38 @@
+# Дополнительная конфигурация для Juniper vMX для gNMI мониторинга
+
+# 1. Включение gNMI сервиса (если не включен)
+set system services extension-service request-response grpc clear-text port 57400
+set system services extension-service request-response grpc max-connections 4
+set system services extension-service request-response grpc skip-authentication
+
+# 2. Настройка уведомлений для gNMI
+set system services extension-service notification allow-clients address 0.0.0.0/0
+
+# 3. Включение telemetry для интерфейсов (если требуется)
+set system services extension-service request-response grpc allow-clients address 0.0.0.0/0
+
+# 4. Настройка логирования для отладки gNMI
+set system syslog user * any emergency
+set system syslog file messages any notice
+set system syslog file messages authorization info
+
+# 5. Настройка интерфейса ae1.0 (если не настроен)
+# Раскомментируйте и настройте по необходимости:
+# set interfaces ae1 aggregated-ether-options minimum-links 1
+# set interfaces ae1 unit 0 family inet address 192.168.1.1/24
+
+# 6. Включение счетчиков интерфейсов
+set interfaces ae1 unit 0 family inet accounting
+
+# 7. Настройка SNMP для дополнительного мониторинга (опционально)
+# set snmp community public authorization read-only
+# set snmp community private authorization read-write
+
+# 8. Настройка времени для корректных timestamp
+set system ntp server pool.ntp.org
+
+# Примечания:
+# - Убедитесь, что интерфейс ae1.0 существует и настроен
+# - Проверьте, что gNMI сервис запущен: show system services extension-service
+# - Для отладки используйте: show log messages | match grpc
+# - Проверьте статус интерфейса: show interfaces ae1.0 extensive

@@ -1,0 +1,1042 @@
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 13084594 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 6254798461 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 51163856 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 172888 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 12102084 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets = 0 
+DEBU[2025-09-15T19:05:48+03:00] Установлен in-octets: 0                      
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts = 0 
+DEBU[2025-09-15T19:05:48+03:00] Установлен in-pkts: 0                        
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 643 
+DEBU[2025-09-15T19:05:48+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36008 
+DEBU[2025-09-15T19:05:48+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets = 0 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets = 0 
+DEBU[2025-09-15T19:05:48+03:00] Установлен out-octets: 0                     
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts = 0 
+DEBU[2025-09-15T19:05:48+03:00] Установлен out-pkts: 0                       
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:48+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets = 0 
+DEBU[2025-09-15T19:05:48+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 6266936553 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 51337387 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 51163856 
+DEBU[2025-09-15T19:05:48+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:48+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 173531 
+DEBU[2025-09-15T19:05:49+03:00] Получено обновление в 2025-09-15 19:06:17.174 +0300 MSK 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 11846978 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 10952030257 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 77402359 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 73568 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 5149760 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен in-octets: 0                      
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен in-pkts: 0                        
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 645 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36120 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен out-octets: 0                     
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен out-pkts: 0                       
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 10957216137 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 77476572 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 77402359 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 74213 
+DEBU[2025-09-15T19:05:49+03:00] Получено обновление в 2025-09-15 19:06:17.174 +0300 MSK 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 11846978 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 10952030257 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 77402359 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 73568 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 5149760 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен in-octets: 0                      
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен in-pkts: 0                        
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 645 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36120 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-multicast-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен out-octets: 0                     
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Установлен out-pkts: 0                       
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts = 0 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets = 0 
+DEBU[2025-09-15T19:05:49+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/out-multicast-octets 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 10957216137 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 77476572 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 77402359 
+DEBU[2025-09-15T19:05:49+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:05:49+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 74213 
+DEBU[2025-09-15T19:05:50+03:00] Получено обновление в 2025-09-15 19:05:23.097626107 +0300 MSK 
+DEBU[2025-09-15T19:05:50+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:05:50+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:05:50+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:05:50+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:05:50+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:05:50+03:00] Получено обновление в 2025-09-15 19:05:23.097856446 +0300 MSK 
+DEBU[2025-09-15T19:05:50+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:05:50+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:05:50+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:05:50+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:05:50+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.819032342 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:06:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:06:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:06:28+03:00] DATA /interfaces/interface[name=ae1]/state/oper-status = UP 
+DEBU[2025-09-15T19:06:28+03:00] Установлен oper-status: UP                   
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.819139592 +0300 MSK 
+INFO[2025-09-15T19:06:28+03:00] 📊 Получено 10 обновлений                     
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.820207606 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:06:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:06:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:06:28+03:00] DATA /interfaces/interface[name=ae1]/state/admin-status = UP 
+DEBU[2025-09-15T19:06:28+03:00] Установлен admin-status: UP                  
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.820321751 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.820996273 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:06:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:06:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:06:28+03:00] DATA /interfaces/interface[name=ae1]/state/mtu = 1514 
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.821101582 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.836022916 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:06:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:06:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:06:28+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:06:28+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.836098543 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.837512917 +0300 MSK 
+DEBU[2025-09-15T19:06:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:06:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:06:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:06:28+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:06:28+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:06:28+03:00] Получено обновление в 2025-09-15 19:06:01.837559948 +0300 MSK 
+DEBU[2025-09-15T19:06:36+03:00] Получено обновление в 2025-09-15 19:07:04.639 +0300 MSK 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 13084594 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 6254798461 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 51163856 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 172888 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 12102084 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 643 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36008 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 6266936553 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 51337387 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 51163856 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 173531 
+DEBU[2025-09-15T19:06:36+03:00] Получено обновление в 2025-09-15 19:07:04.639 +0300 MSK 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 13084594 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 6254798461 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 51163856 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 172888 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 12102084 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 643 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36008 
+DEBU[2025-09-15T19:06:36+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 6266936553 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 51337387 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 51163856 
+DEBU[2025-09-15T19:06:36+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:36+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 173531 
+INFO[2025-09-15T19:06:36+03:00] 📊 Получено 20 обновлений                     
+DEBU[2025-09-15T19:06:37+03:00] Получено обновление в 2025-09-15 19:07:05.644 +0300 MSK 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:06:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:06:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 11846978 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 10952030949 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 77402366 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 73579 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 5150530 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 645 
+DEBU[2025-09-15T19:06:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36120 
+DEBU[2025-09-15T19:06:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 10957217599 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 77476590 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 77402366 
+DEBU[2025-09-15T19:06:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:37+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 74224 
+DEBU[2025-09-15T19:06:38+03:00] Получено обновление в 2025-09-15 19:07:06.649 +0300 MSK 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:06:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:06:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 11846978 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 10952030949 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 77402366 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 73580 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 5150600 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 645 
+DEBU[2025-09-15T19:06:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36120 
+DEBU[2025-09-15T19:06:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 10957217669 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 77476591 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 77402366 
+DEBU[2025-09-15T19:06:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:06:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 74225 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.818703754 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:07:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:07:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:07:28+03:00] DATA /interfaces/interface[name=ae1]/state/oper-status = UP 
+DEBU[2025-09-15T19:07:28+03:00] Установлен oper-status: UP                   
+INFO[2025-09-15T19:07:28+03:00] AGG: lastKnown(In:0 Out:0 IP:0 OP:0) sums(In:0 Out:0 IP:0 OP:0) slot(In:0 Out:0 IP:0 OP:0) 
+INFO[2025-09-15T19:07:28+03:00] FLUSH loop 19:07:28: InOctets=0 OutOctets=0 InPkts=0 OutPkts=0 
+INFO[2025-09-15T19:07:28+03:00] Данные сохранены в CSV: 19:07:28 - UP/UP (InOctets: 0, OutOctets: 0) 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.818754789 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.81924451 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:07:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:07:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:07:28+03:00] DATA /interfaces/interface[name=ae1]/state/admin-status = UP 
+DEBU[2025-09-15T19:07:28+03:00] Установлен admin-status: UP                  
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.819294268 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.819654766 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:07:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:07:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:07:28+03:00] DATA /interfaces/interface[name=ae1]/state/mtu = 1514 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.819691416 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.827491516 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:07:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:07:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:07:28+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:07:28+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.827533836 +0300 MSK 
+INFO[2025-09-15T19:07:28+03:00] 📊 Получено 30 обновлений                     
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.828596105 +0300 MSK 
+DEBU[2025-09-15T19:07:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:07:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:07:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:07:28+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:07:28+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:07:28+03:00] Получено обновление в 2025-09-15 19:07:01.828639518 +0300 MSK 
+DEBU[2025-09-15T19:07:37+03:00] Получено обновление в 2025-09-15 19:08:05.264 +0300 MSK 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 13084594 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 6254798461 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 51163856 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 172888 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 12102084 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 643 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36008 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 6266936553 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 51337387 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 51163856 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 173531 
+DEBU[2025-09-15T19:07:37+03:00] Получено обновление в 2025-09-15 19:08:05.264 +0300 MSK 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 13084594 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 6254798461 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 51163856 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 172888 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 12102084 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 643 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36008 
+DEBU[2025-09-15T19:07:37+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1528662301 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 13084594 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 6266936553 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 51337387 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 51163856 
+DEBU[2025-09-15T19:07:37+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:37+03:00] DATA /interfaces/interface[name=ge-0/0/1]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 173531 
+DEBU[2025-09-15T19:07:38+03:00] Получено обновление в 2025-09-15 19:08:06.269 +0300 MSK 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:07:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:07:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 11846978 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 10952032090 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 77402377 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 73593 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 5151510 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 645 
+DEBU[2025-09-15T19:07:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36120 
+DEBU[2025-09-15T19:07:38+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 10957219720 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 77476615 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 77402377 
+DEBU[2025-09-15T19:07:38+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:38+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 74238 
+DEBU[2025-09-15T19:07:39+03:00] Получено обновление в 2025-09-15 19:08:07.274 +0300 MSK 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time = 1756728919 
+DEBU[2025-09-15T19:07:39+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/init-time 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name = ae1.0 
+DEBU[2025-09-15T19:07:39+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/parent-ae-name 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/out-unicast-pkts = 11846978 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-octets = 10952032155 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-pkts = 77402378 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-pkts = 73594 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/in-multicast-octets = 5151580 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts = 645 
+DEBU[2025-09-15T19:07:39+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets = 36120 
+DEBU[2025-09-15T19:07:39+03:00] Неизвестное поле: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv6/state/counters/in-multicast-octets 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-octets = 1384217821 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/ipv4/state/counters/out-pkts = 11846978 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-octets = 10957219855 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-pkts = 77476617 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-unicast-pkts = 77402378 
+DEBU[2025-09-15T19:07:39+03:00] Построен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Получен полный путь: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts 
+DEBU[2025-09-15T19:07:39+03:00] DATA /interfaces/interface[name=ge-0/0/6]/subinterfaces/subinterface[index=0]/state/counters/in-multicast-pkts = 74239 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.819144802 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:08:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:08:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/oper-status 
+DEBU[2025-09-15T19:08:28+03:00] DATA /interfaces/interface[name=ae1]/state/oper-status = UP 
+DEBU[2025-09-15T19:08:28+03:00] Установлен oper-status: UP                   
+INFO[2025-09-15T19:08:28+03:00] AGG: lastKnown(In:0 Out:0 IP:0 OP:0) sums(In:0 Out:0 IP:0 OP:0) slot(In:0 Out:0 IP:0 OP:0) 
+INFO[2025-09-15T19:08:28+03:00] FLUSH loop 19:08:28: InOctets=0 OutOctets=0 InPkts=0 OutPkts=0 
+INFO[2025-09-15T19:08:28+03:00] Данные сохранены в CSV: 19:08:28 - UP/UP (InOctets: 0, OutOctets: 0) 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.819244215 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.820249787 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:08:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:08:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/admin-status 
+DEBU[2025-09-15T19:08:28+03:00] DATA /interfaces/interface[name=ae1]/state/admin-status = UP 
+DEBU[2025-09-15T19:08:28+03:00] Установлен admin-status: UP                  
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.82037474 +0300 MSK 
+INFO[2025-09-15T19:08:28+03:00] 📊 Получено 40 обновлений                     
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.821189379 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:08:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:08:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/state/mtu 
+DEBU[2025-09-15T19:08:28+03:00] DATA /interfaces/interface[name=ae1]/state/mtu = 1514 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.821299547 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.832790381 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:08:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:08:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:08:28+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:08:28+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/negotiated-port-speed 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.832836036 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.833918675 +0300 MSK 
+DEBU[2025-09-15T19:08:28+03:00] Построен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:08:28+03:00] Получен полный путь: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:08:28+03:00] Обрабатываем путь для ae1: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:08:28+03:00] DATA /interfaces/interface[name=ae1]/ethernet/state/port-speed = SPEED_2500MB 
+DEBU[2025-09-15T19:08:28+03:00] Неизвестное поле: /interfaces/interface[name=ae1]/ethernet/state/port-speed 
+DEBU[2025-09-15T19:08:28+03:00] Получено обновление в 2025-09-15 19:08:01.833963974 +0300 MSK 
+^CINFO[2025-09-15T19:08:34+03:00] Получен сигнал завершения, останавливаем мониторинг... 
+INFO[2025-09-15T19:08:34+03:00] FLUSH slot (shutdown) 19:08:01: InOctets=0 OutOctets=0 InPkts=0 OutPkts=0 
+INFO[2025-09-15T19:08:34+03:00] Данные сохранены в CSV: 19:08:01 - UP/UP (InOctets: 0, OutOctets: 0) 
+INFO[2025-09-15T19:08:34+03:00] Мониторинг завершен   

@@ -1,0 +1,36 @@
+Есть устройство Juniper vMX с конфигурацией:
+admin@dc1-cr11.ekt> show configuration system services 
+ssh {
+    connection-limit 100;
+}
+extension-service {
+    request-response {
+        grpc {
+            clear-text {
+                port 57400;
+            }
+            max-connections 4;
+            skip-authentication;
+        }
+    }
+    notification {
+        allow-clients {
+            address 0.0.0.0/0;
+        }
+    }
+}
+netconf {
+    ssh;
+    rfc-compliant;
+}
+
+ip_address: 192.168.100.111
+login: admin
+password: admin@123
+
+Нужно сделать программу на Go, 
+которая будет подписываться на получение данныех об интерфейсе ae1.0 с этого устройсва по gnmi и 
+сохранять их в csv файле.
+Если нужно дополнительно сконфигурировать vmx, то укажи необходимую конфигурацию в файле config.txt.
+
+ssh -f -N -L 7081:192.168.100.111:22  bulat@10.27.200.47

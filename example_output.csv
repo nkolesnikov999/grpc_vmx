@@ -1,0 +1,4 @@
+Timestamp,Interface Name,Operational Status,Administrative Status,Input Octets,Output Octets,Input Packets,Output Packets,Speed (bps),MTU
+2024-01-15 10:30:15.123,ae1.0,up,up,1024000,2048000,1500,2000,1000000000,1514
+2024-01-15 10:30:16.456,ae1.0,up,up,1025000,2049000,1501,2001,1000000000,1514
+2024-01-15 10:30:17.789,ae1.0,up,up,1026000,2050000,1502,2002,1000000000,1514
