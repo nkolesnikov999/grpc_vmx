@@ -1,0 +1,41 @@
+update:  {
+  timestamp:  1758117477167720898
+  prefix:  {
+    elem:  {
+      name:  "interfaces"
+    }
+    elem:  {
+      name:  "interface"
+      key:  {
+        key:  "name"
+        value:  "ae1"
+      }
+    }
+  }
+  update:  {
+    path:  {
+      elem:  {
+        name:  "aggregation"
+      }
+      elem:  {
+        name:  "state"
+      }
+      elem:  {
+        name:  "member"
+      }
+    }
+    val:  {
+      leaflist_val:  {
+        element:  {}
+        element:  {}
+      }
+    }
+  }
+}
+extension:  {
+  registered_ext:  {
+    id:  1
+    msg:  "\n\x0cdc1-cr11.ekt\x10\xff\xff\x03\"\x0bsensor_1004*;/interfaces/interface[name='ae1']/aggregation/state/member/2;/interfaces/interface[name='ae1']/aggregation/state/member/:\x03dcd@\x80\x80@`\xb1\xf6޿\x953"
+  }
+}
+

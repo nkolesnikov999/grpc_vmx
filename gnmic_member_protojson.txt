@@ -1,0 +1,51 @@
+{
+  "update":  {
+    "timestamp":  "1758117285261953104",
+    "prefix":  {
+      "elem":  [
+        {
+          "name":  "interfaces"
+        },
+        {
+          "name":  "interface",
+          "key":  {
+            "name":  "ae1"
+          }
+        }
+      ]
+    },
+    "update":  [
+      {
+        "path":  {
+          "elem":  [
+            {
+              "name":  "aggregation"
+            },
+            {
+              "name":  "state"
+            },
+            {
+              "name":  "member"
+            }
+          ]
+        },
+        "val":  {
+          "leaflistVal":  {
+            "element":  [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "extension":  [
+    {
+      "registeredExt":  {
+        "id":  1,
+        "msg":  "CgxkYzEtY3IxMS5la3QQ//8DIgtzZW5zb3JfMTAwNCo7L2ludGVyZmFjZXMvaW50ZXJmYWNlW25hbWU9J2FlMSddL2FnZ3JlZ2F0aW9uL3N0YXRlL21lbWJlci8yOy9pbnRlcmZhY2VzL2ludGVyZmFjZVtuYW1lPSdhZTEnXS9hZ2dyZWdhdGlvbi9zdGF0ZS9tZW1iZXIvOgNkY2RAgIBAYJCb07+VMw=="
+      }
+    }
+  ]
+}

@@ -18,11 +18,10 @@ import (
 )
 
 const (
-	deviceIP      = "127.0.0.1:17081"
-	username      = "admin"
-	password      = "admin@123"
-	interfacePath = "/interfaces/interface[name=ae1.0]/state"
-	csvFile       = "interface_data.csv"
+	deviceIP = "127.0.0.1:17081"
+	username = "admin"
+	password = "admin@123"
+	csvFile  = "interface_data.csv"
 )
 
 type InterfaceData struct {
@@ -89,41 +88,12 @@ func (b *basicAuth) RequireTransportSecurity() bool {
 	return false
 }
 
-// buildInterfacePath создает полный путь для указанного поля интерфейса
-func buildInterfacePath(field string) string {
-	return interfacePath + "/" + field
-}
-
 // contains проверяет, содержит ли строка подстроку
 func contains(s, substr string) bool {
 	return strings.Contains(s, substr)
 }
 
-// checkGNMIServer проверяет доступность gNMI сервера
-func checkGNMIServer(ctx context.Context, client gnmi.GNMIClient) error {
-	logrus.Info("🔍 Проверка доступности gNMI сервера...")
-
-	// Создаем простой Get запрос для проверки соединения
-	getRequest := &gnmi.GetRequest{
-		Path: []*gnmi.Path{
-			{
-				Elem: []*gnmi.PathElem{
-					{Name: "interfaces"},
-				},
-			},
-		},
-		Type:     gnmi.GetRequest_CONFIG,
-		Encoding: gnmi.Encoding_PROTO,
-	}
-
-	_, err := client.Get(ctx, getRequest)
-	if err != nil {
-		return fmt.Errorf("gNMI сервер недоступен: %v", err)
-	}
-
-	logrus.Info("✅ gNMI сервер доступен и отвечает")
-	return nil
-}
+// checkGNMIServer удален как неиспользуемый
 
 func main() {
 	// Настройка логирования

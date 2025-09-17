@@ -2,14 +2,21 @@ package main
 
 import (
 	"context"
+	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"time"
+
+	"unicode/utf8"
+
+	"strings"
 
 	"github.com/openconfig/gnmi/proto/gnmi"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
+	"google.golang.org/protobuf/types/known/anypb"
+	"google.golang.org/protobuf/types/known/wrapperspb"
 )
 
 const (
@@ -62,32 +69,171 @@ func buildFullPath(prefix *gnmi.Path, path *gnmi.Path) string {
 	return fullPath
 }
 
+func decodeBytesToString(b []byte) interface{} {
+	if len(b) == 0 {
+		return ""
+	}
+	if utf8.Valid(b) {
+		return string(b)
+	}
+	return "base64:" + base64.StdEncoding.EncodeToString(b)
+}
+
+func tryUnwrapAny(a *anypb.Any) interface{} {
+	if a == nil {
+		return nil
+	}
+	if v := new(wrapperspb.StringValue); a.UnmarshalTo(v) == nil {
+		return v.Value
+	}
+	if v := new(wrapperspb.BoolValue); a.UnmarshalTo(v) == nil {
+		return v.Value
+	}
+	if v := new(wrapperspb.Int64Value); a.UnmarshalTo(v) == nil {
+		return v.Value
+	}
+	if v := new(wrapperspb.UInt64Value); a.UnmarshalTo(v) == nil {
+		return v.Value
+	}
+	if v := new(wrapperspb.FloatValue); a.UnmarshalTo(v) == nil {
+		return v.Value
+	}
+	if v := new(wrapperspb.DoubleValue); a.UnmarshalTo(v) == nil {
+		return v.Value
+	}
+	if v := new(wrapperspb.BytesValue); a.UnmarshalTo(v) == nil {
+		return decodeBytesToString(v.Value)
+	}
+	return "any:" + a.TypeUrl
+}
+
+func decodeDecimal(d *gnmi.Decimal64) interface{} {
+	if d == nil {
+		return nil
+	}
+	// value = digits * 10^-precision
+	// Render as string to avoid floating rounding surprises
+	digits := d.Digits
+	precision := d.Precision
+	// Build string manually
+	neg := digits < 0
+	if neg {
+		digits = -digits
+	}
+	s := fmt.Sprintf("%d", digits)
+	if precision > 0 {
+		if int(precision) >= len(s) {
+			pad := int(precision) - len(s) + 1
+			s = strings.Repeat("0", pad) + s
+		}
+		idx := len(s) - int(precision)
+		s = s[:idx] + "." + s[idx:]
+	}
+	if neg {
+		s = "-" + s
+	}
+	return s
+}
+
 func printUpdate(prefix *gnmi.Path, u *gnmi.Update) {
 	p := buildFullPath(prefix, u.Path)
 	fmt.Printf("Path: %s\n", p)
-	if j := u.Val.GetJsonVal(); len(j) > 0 {
+	switch v := u.Val.Value.(type) {
+	case *gnmi.TypedValue_JsonVal:
 		var any interface{}
-		if err := json.Unmarshal(j, &any); err == nil {
+		if err := json.Unmarshal(v.JsonVal, &any); err == nil {
 			pretty, _ := json.MarshalIndent(any, "", "  ")
 			fmt.Printf("JSON:\n%s\n", string(pretty))
 		} else {
-			fmt.Printf("json decode error: %v, raw: %s\n", err, string(j))
+			fmt.Printf("json decode error: %v, raw: %s\n", err, string(v.JsonVal))
 		}
-	} else if j := u.Val.GetJsonIetfVal(); len(j) > 0 {
+	case *gnmi.TypedValue_JsonIetfVal:
 		var any interface{}
-		if err := json.Unmarshal(j, &any); err == nil {
+		if err := json.Unmarshal(v.JsonIetfVal, &any); err == nil {
 			pretty, _ := json.MarshalIndent(any, "", "  ")
 			fmt.Printf("JSON_IETF:\n%s\n", string(pretty))
 		} else {
-			fmt.Printf("json_ietf decode error: %v, raw: %s\n", err, string(j))
+			fmt.Printf("json_ietf decode error: %v, raw: %s\n", err, string(v.JsonIetfVal))
 		}
-	} else if s := u.Val.GetStringVal(); s != "" {
-		fmt.Printf("string: %s\n", s)
-	} else if u64 := u.Val.GetUintVal(); u64 != 0 {
-		fmt.Printf("uint: %d\n", u64)
-	} else if i64 := u.Val.GetIntVal(); i64 != 0 {
-		fmt.Printf("int: %d\n", i64)
-	} else {
+	case *gnmi.TypedValue_StringVal:
+		fmt.Printf("string: %s\n", v.StringVal)
+	case *gnmi.TypedValue_UintVal:
+		fmt.Printf("uint: %d\n", v.UintVal)
+	case *gnmi.TypedValue_IntVal:
+		fmt.Printf("int: %d\n", v.IntVal)
+	case *gnmi.TypedValue_BoolVal:
+		fmt.Printf("bool: %t\n", v.BoolVal)
+	case *gnmi.TypedValue_FloatVal:
+		fmt.Printf("float: %f\n", v.FloatVal)
+	case *gnmi.TypedValue_DoubleVal:
+		fmt.Printf("double: %f\n", v.DoubleVal)
+	case *gnmi.TypedValue_AsciiVal:
+		fmt.Printf("ascii: %s\n", v.AsciiVal)
+	case *gnmi.TypedValue_BytesVal:
+		fmt.Printf("bytes: %v\n", decodeBytesToString(v.BytesVal))
+	case *gnmi.TypedValue_ProtoBytes:
+		fmt.Printf("proto_bytes: %v\n", decodeBytesToString(v.ProtoBytes))
+	case *gnmi.TypedValue_DecimalVal:
+		fmt.Printf("decimal64: %v\n", decodeDecimal(v.DecimalVal))
+	case *gnmi.TypedValue_AnyVal:
+		fmt.Printf("any: %v\n", tryUnwrapAny(v.AnyVal))
+	case *gnmi.TypedValue_LeaflistVal:
+		// Render leaf-list elements as a JSON array for readability
+		arr := make([]interface{}, 0, len(v.LeaflistVal.Element))
+		for _, e := range v.LeaflistVal.Element {
+			if e == nil {
+				arr = append(arr, "<nil-elem>")
+				continue
+			}
+			// Debug logs removed
+			if e.Value == nil {
+				arr = append(arr, "<nil-value>")
+				continue
+			}
+			switch ev := e.Value.(type) {
+			case *gnmi.TypedValue_StringVal:
+				arr = append(arr, ev.StringVal)
+			case *gnmi.TypedValue_AsciiVal:
+				arr = append(arr, ev.AsciiVal)
+			case *gnmi.TypedValue_UintVal:
+				arr = append(arr, ev.UintVal)
+			case *gnmi.TypedValue_IntVal:
+				arr = append(arr, ev.IntVal)
+			case *gnmi.TypedValue_BoolVal:
+				arr = append(arr, ev.BoolVal)
+			case *gnmi.TypedValue_FloatVal:
+				arr = append(arr, ev.FloatVal)
+			case *gnmi.TypedValue_BytesVal:
+				arr = append(arr, decodeBytesToString(ev.BytesVal))
+			case *gnmi.TypedValue_ProtoBytes:
+				arr = append(arr, decodeBytesToString(ev.ProtoBytes))
+			case *gnmi.TypedValue_DoubleVal:
+				arr = append(arr, ev.DoubleVal)
+			case *gnmi.TypedValue_DecimalVal:
+				arr = append(arr, decodeDecimal(ev.DecimalVal))
+			case *gnmi.TypedValue_AnyVal:
+				arr = append(arr, tryUnwrapAny(ev.AnyVal))
+			case *gnmi.TypedValue_JsonVal:
+				var any interface{}
+				if err := json.Unmarshal(ev.JsonVal, &any); err == nil {
+					arr = append(arr, any)
+				} else {
+					arr = append(arr, string(ev.JsonVal))
+				}
+			case *gnmi.TypedValue_JsonIetfVal:
+				var any interface{}
+				if err := json.Unmarshal(ev.JsonIetfVal, &any); err == nil {
+					arr = append(arr, any)
+				} else {
+					arr = append(arr, string(ev.JsonIetfVal))
+				}
+			default:
+				arr = append(arr, "<unsupported-element>")
+			}
+		}
+		pretty, _ := json.MarshalIndent(arr, "", "  ")
+		fmt.Printf("leaflist:\n%s\n", string(pretty))
+	default:
 		fmt.Printf("(no recognizable value type)\n")
 	}
 }
@@ -114,7 +260,7 @@ func main() {
 		Request: &gnmi.SubscribeRequest_Subscribe{
 			Subscribe: &gnmi.SubscriptionList{
 				Mode:     gnmi.SubscriptionList_ONCE,
-				Encoding: gnmi.Encoding_JSON,
+				Encoding: gnmi.Encoding_PROTO,
 				Subscription: []*gnmi.Subscription{
 					{Path: &gnmi.Path{Elem: []*gnmi.PathElem{{Name: "interfaces"}}}, Mode: gnmi.SubscriptionMode_TARGET_DEFINED},
 				},
