@@ -1,0 +1,438 @@
+===== Subscribe(ONCE) /components =====
+Path: /components/component[name=FPC0:PIC0:PORT0]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT0:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT0:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT0:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT0:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT1]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT1:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT1:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT1:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT1:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT2]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT2:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT2:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT2:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT2:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT3]/state/oper-status
+string: INACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT3:Xcvr0]/transceiver/state/enabled
+bool: false
+Path: /components/component[name=FPC0:PIC0:PORT3:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT3:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT3:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT4]/state/oper-status
+string: INACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT4:Xcvr0]/transceiver/state/enabled
+bool: false
+Path: /components/component[name=FPC0:PIC0:PORT4:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT4:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT4:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT5]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT5:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT5:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT5:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT5:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT6]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT6:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT6:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT6:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT6:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT7]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT7:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT7:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT7:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT7:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT8]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT8:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT8:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT8:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT8:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT9]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0:PORT9:Xcvr0]/transceiver/state/enabled
+bool: true
+Path: /components/component[name=FPC0:PIC0:PORT9:Xcvr0]/transceiver/state/output-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT9:Xcvr0]/transceiver/state/input-power/instant
+float: 0.000000
+Path: /components/component[name=FPC0:PIC0:PORT9:Xcvr0]/transceiver/state/laser-bias-current/instant
+float: 0.000000
+Path: /components/component[name=Chassis]/state/name
+string: Chassis
+Path: /components/component[name=Chassis]/state/type
+string: CHASSIS
+Path: /components/component[name=Chassis]/state/id
+string: VM68B58C2991
+Path: /components/component[name=Chassis]/state/location
+string: Chassis
+Path: /components/component[name=Chassis]/state/description
+string: VMX
+Path: /components/component[name=Chassis]/state/mfg-date
+string: 0000-00-00
+Path: /components/component[name=Chassis]/state/serial-no
+string: VM68B58C2991
+Path: /components/component[name=Chassis]/state/removable
+bool: false
+Path: /components/component[name=Chassis]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=Chassis]/state/empty
+bool: false
+Path: /components/component[name=Routing Engine0]/state/name
+string: Routing Engine0
+Path: /components/component[name=Routing Engine0]/state/type
+string: CONTROLLER_CARD
+Path: /components/component[name=Routing Engine0]/state/location
+string: Routing Engine0
+Path: /components/component[name=Routing Engine0]/state/description
+string: RE-VMX
+Path: /components/component[name=Routing Engine0]/state/mfg-date
+string: 0000-00-00
+Path: /components/component[name=Routing Engine0]/state/software-version
+string: 22.2R3.15
+Path: /components/component[name=Routing Engine0]/state/removable
+bool: true
+Path: /components/component[name=Routing Engine0]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=Routing Engine0]/state/empty
+bool: false
+Path: /components/component[name=Routing Engine0]/state/temperature/instant
+decimal64: 0.0
+Path: /components/component[name=Routing Engine0]/state/memory/available
+uint: 2048
+Path: /components/component[name=Routing Engine0]/state/memory/utilized
+uint: 389
+Path: /components/component[name=Routing Engine0]/properties/property[name=state]/state/value
+string: Online Master
+Path: /components/component[name=Routing Engine0]/properties/property[name=state]/state/configurable
+bool: true
+Path: /components/component[name=Routing Engine0]/properties/property[name=mastership-state]/state/value
+string: Master
+Path: /components/component[name=Routing Engine0]/properties/property[name=mastership-state]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=mastership-priority]/state/value
+string: Master (default)
+Path: /components/component[name=Routing Engine0]/properties/property[name=mastership-priority]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-user]/state/value
+string: 1
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-user]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-background]/state/value
+string: 0
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-background]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-kernel]/state/value
+string: 1
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-kernel]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-interrupt]/state/value
+string: 0
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-interrupt]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-idle]/state/value
+string: 97
+Path: /components/component[name=Routing Engine0]/properties/property[name=cpu-utilization-idle]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=memory-dram-used]/state/value
+string: 389
+Path: /components/component[name=Routing Engine0]/properties/property[name=memory-dram-used]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=memory-dram-installed]/state/value
+string: 2048
+Path: /components/component[name=Routing Engine0]/properties/property[name=memory-dram-installed]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=memory-utilization-buffer]/state/value
+string: 19
+Path: /components/component[name=Routing Engine0]/properties/property[name=memory-utilization-buffer]/state/configurable
+bool: false
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/name
+string: CPU0:CORE0
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/instant
+uint: 4
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/avg
+uint: 4
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/min
+uint: 0
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/max
+uint: 4
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/interval
+uint: 0
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/min-time
+uint: 0
+Path: /components/component[name=CPU0:CORE0]/cpu/utilization/state/max-time
+uint: 1758125551592352040
+Path: /components/component[name=Routing Engine0]/properties/property[name=uptime]/state/value
+string: 1397258
+Path: /components/component[name=Routing Engine0]/properties/property[name=uptime]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=reboot-reason]/state/value
+string: Router rebooted after a normal shutdown.
+Path: /components/component[name=Routing Engine0]/properties/property[name=reboot-reason]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=fru-model-number]/state/value
+string: RE-VMX
+Path: /components/component[name=Routing Engine0]/properties/property[name=fru-model-number]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=firmware-rev]/state/value
+string: rev:0.0.0
+Path: /components/component[name=Routing Engine0]/properties/property[name=firmware-rev]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=manufacture-date]/state/value
+string: date:0000-00-00
+Path: /components/component[name=Routing Engine0]/properties/property[name=manufacture-date]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=temperature-back-to-normal]/state/value
+string: TRUE
+Path: /components/component[name=Routing Engine0]/properties/property[name=temperature-back-to-normal]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=over-temperature]/state/value
+string: FALSE
+Path: /components/component[name=Routing Engine0]/properties/property[name=over-temperature]/state/configurable
+bool: false
+Path: /components/component[name=Routing Engine0]/properties/property[name=fru-failed]/state/value
+string: FALSE
+Path: /components/component[name=Routing Engine0]/properties/property[name=fru-failed]/state/configurable
+bool: false
+Path: /components/component[name=CB0]/state/name
+string: CB0
+Path: /components/component[name=CB0]/state/type
+string: CONTROLLER_CARD
+Path: /components/component[name=CB0]/state/location
+string: CB0
+Path: /components/component[name=CB0]/state/description
+string: VMX SCB
+Path: /components/component[name=CB0]/state/mfg-date
+string: 0000-00-00
+Path: /components/component[name=CB0]/state/removable
+bool: true
+Path: /components/component[name=CB0]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=CB0]/state/empty
+bool: false
+Path: /components/component[name=CB0]/properties/property[name=state]/state/value
+string: Online Master
+Path: /components/component[name=CB0]/properties/property[name=state]/state/configurable
+bool: false
+Path: /components/component[name=CB0]/properties/property[name=temperature-intake]/state/value
+string: 0
+Path: /components/component[name=CB0]/properties/property[name=temperature-intake]/state/configurable
+bool: false
+Path: /components/component[name=CB0]/properties/property[name=temperature-exhaust-a]/state/value
+string: 0
+Path: /components/component[name=CB0]/properties/property[name=temperature-exhaust-a]/state/configurable
+bool: false
+Path: /components/component[name=CB0]/properties/property[name=temperature-exhaust-b]/state/value
+string: 0
+Path: /components/component[name=CB0]/properties/property[name=temperature-exhaust-b]/state/configurable
+bool: false
+Path: /components/component[name=CB0]/properties/property[name=fru-model-number]/state/value
+string: VMX SCB
+Path: /components/component[name=CB0]/properties/property[name=fru-model-number]/state/configurable
+bool: false
+Path: /components/component[name=CB0]/properties/property[name=manufacture-date]/state/value
+string: date:0000-00-00
+Path: /components/component[name=CB0]/properties/property[name=manufacture-date]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/state/name
+string: FPC0
+Path: /components/component[name=FPC0]/state/type
+string: LINECARD
+Path: /components/component[name=FPC0]/state/location
+string: FPC0
+Path: /components/component[name=FPC0]/state/description
+string: Virtual FPC
+Path: /components/component[name=FPC0]/state/mfg-date
+string: 0000-00-00
+Path: /components/component[name=FPC0]/state/firmware-version
+string: PC Bios
+Path: /components/component[name=FPC0]/state/software-version
+string: Version 22.2R3.15 by builder on 2023-03-22 15:31:21 UTC
+Path: /components/component[name=FPC0]/state/removable
+bool: true
+Path: /components/component[name=FPC0]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0]/state/empty
+bool: false
+Path: /components/component[name=FPC0]/state/temperature/instant
+decimal64: 0.0
+Path: /components/component[name=FPC0]/state/memory/available
+uint: 511
+Path: /components/component[name=FPC0]/state/memory/utilized
+uint: 163
+Path: /components/component[name=FPC0]/state/allocated-power
+uint: 0
+Path: /components/component[name=FPC0]/properties/property[name=state]/state/value
+string: Online
+Path: /components/component[name=FPC0]/properties/property[name=state]/state/configurable
+bool: true
+Path: /components/component[name=FPC0]/properties/property[name=power-maximum]/state/value
+string: 0
+Path: /components/component[name=FPC0]/properties/property[name=power-maximum]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=memory-dram-used]/state/value
+string: 511
+Path: /components/component[name=FPC0]/properties/property[name=memory-dram-used]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=memory-utilization-heap]/state/value
+string: 32
+Path: /components/component[name=FPC0]/properties/property[name=memory-utilization-heap]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=memory-utilization-buffer]/state/value
+string: 0
+Path: /components/component[name=FPC0]/properties/property[name=memory-utilization-buffer]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=uptime]/state/value
+string: 1397161
+Path: /components/component[name=FPC0]/properties/property[name=uptime]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=fru-model-number]/state/value
+string: Virtual FPC
+Path: /components/component[name=FPC0]/properties/property[name=fru-model-number]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=rom-software-rev-chassis]/state/value
+string: PC Bios
+Path: /components/component[name=FPC0]/properties/property[name=rom-software-rev-chassis]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=software-rev]/state/value
+string: Version 22.2R3.15 by builder on 2023-03-22 15:31:21 UTC
+Path: /components/component[name=FPC0]/properties/property[name=software-rev]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=manufacture-date]/state/value
+string: date:0000-00-00
+Path: /components/component[name=FPC0]/properties/property[name=manufacture-date]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=temperature-back-to-normal]/state/value
+string: TRUE
+Path: /components/component[name=FPC0]/properties/property[name=temperature-back-to-normal]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=over-temperature]/state/value
+string: FALSE
+Path: /components/component[name=FPC0]/properties/property[name=over-temperature]/state/configurable
+bool: false
+Path: /components/component[name=FPC0]/properties/property[name=fru-failed]/state/value
+string: FALSE
+Path: /components/component[name=FPC0]/properties/property[name=fru-failed]/state/configurable
+bool: false
+Path: /components/component[name=FPC0:CPU]/state/name
+string: FPC0:CPU
+Path: /components/component[name=FPC0:CPU]/state/type
+string: CPU
+Path: /components/component[name=FPC0:CPU]/state/id
+string: BUILTIN
+Path: /components/component[name=FPC0:CPU]/state/location
+string: FPC0:CPU
+Path: /components/component[name=FPC0:CPU]/state/mfg-date
+string: 2013-08-18
+Path: /components/component[name=FPC0:CPU]/state/hardware-version
+string: Rev. 1.0
+Path: /components/component[name=FPC0:CPU]/state/serial-no
+string: BUILTIN
+Path: /components/component[name=FPC0:CPU]/state/part-no
+string: RIOT-LITE
+Path: /components/component[name=FPC0:CPU]/state/removable
+bool: false
+Path: /components/component[name=FPC0:CPU]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:CPU]/state/empty
+bool: false
+Path: /components/component[name=FPC0:CPU]/state/parent
+string: FPC0
+Path: /components/component[name=FPC0:MIC0]/state/name
+string: FPC0:MIC0
+Path: /components/component[name=FPC0:MIC0]/state/type
+string: LINECARD
+Path: /components/component[name=FPC0:MIC0]/state/location
+string: FPC0:MIC0
+Path: /components/component[name=FPC0:MIC0]/state/description
+string: Virtual
+Path: /components/component[name=FPC0:MIC0]/state/mfg-date
+string: 0000-00-00
+Path: /components/component[name=FPC0:MIC0]/state/software-version
+string: 22.2R3.15
+Path: /components/component[name=FPC0:MIC0]/state/removable
+bool: false
+Path: /components/component[name=FPC0:MIC0]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:MIC0]/state/empty
+bool: false
+Path: /components/component[name=FPC0:MIC0]/state/parent
+string: FPC0
+Path: /components/component[name=FPC0:MIC0]/properties/property[name=state]/state/value
+string: Online
+Path: /components/component[name=FPC0:MIC0]/properties/property[name=state]/state/configurable
+bool: false
+Path: /components/component[name=FPC0:MIC0]/subcomponents/subcomponent[name=FPC0:PIC0]/state/name
+string: FPC0:PIC0
+Path: /components/component[name=FPC0:PIC0]/state/name
+string: FPC0:PIC0
+Path: /components/component[name=FPC0:PIC0]/state/type
+string: FRU
+Path: /components/component[name=FPC0:PIC0]/state/id
+string: BUILTIN
+Path: /components/component[name=FPC0:PIC0]/state/location
+string: FPC0:PIC0
+Path: /components/component[name=FPC0:PIC0]/state/description
+string: Virtual
+Path: /components/component[name=FPC0:PIC0]/state/mfg-date
+string: 0000-00-00
+Path: /components/component[name=FPC0:PIC0]/state/software-version
+string: 22.2R3.15
+Path: /components/component[name=FPC0:PIC0]/state/serial-no
+string: BUILTIN
+Path: /components/component[name=FPC0:PIC0]/state/part-no
+string: BUILTIN
+Path: /components/component[name=FPC0:PIC0]/state/removable
+bool: false
+Path: /components/component[name=FPC0:PIC0]/state/oper-status
+string: ACTIVE
+Path: /components/component[name=FPC0:PIC0]/state/empty
+bool: false
+Path: /components/component[name=FPC0:PIC0]/state/parent
+string: FPC0
+Path: /components/component[name=FPC0:PIC0]/properties/property[name=state]/state/value
+string: Online
+Path: /components/component[name=FPC0:PIC0]/properties/property[name=state]/state/configurable
+bool: true
+===== End (sync) =====

@@ -7,6 +7,9 @@ import (
 	"fmt"
 	"time"
 
+	"io"
+	"os"
+
 	"unicode/utf8"
 
 	"strings"
@@ -14,15 +17,18 @@ import (
 	"github.com/openconfig/gnmi/proto/gnmi"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"
+	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 )
 
 const (
-	deviceIP = "127.0.0.1:17081"
-	username = "admin"
-	password = "admin@123"
+	deviceIP    = "127.0.0.1:17081"
+	username    = "admin"
+	password    = "admin@123"
+	defaultPath = "/lacp"
 )
 
 type basicAuth struct {
@@ -53,6 +59,98 @@ func pathToString(path *gnmi.Path) string {
 		}
 	}
 	return res
+}
+
+// stringToGNMIPath converts a slash-delimited path string (e.g. "/interfaces/interface/state")
+// into a gnmi.Path. It supports keyed segments like "interface[name=ae1]" and multiple keys
+// either as multiple bracket groups ("seg[k=v][x=y]") or comma-separated inside one group
+// ("seg[k=v,x=y]"). Values can optionally be quoted with ' or ".
+func stringToGNMIPath(p string) *gnmi.Path {
+	p = strings.TrimSpace(p)
+	if p == "" || p == "/" {
+		return &gnmi.Path{}
+	}
+	parts := strings.Split(p, "/")
+	elems := make([]*gnmi.PathElem, 0, len(parts))
+	for _, part := range parts {
+		if part == "" {
+			continue
+		}
+		name, keys := parseSegment(part)
+		pe := &gnmi.PathElem{Name: name}
+		if len(keys) > 0 {
+			pe.Key = keys
+		}
+		elems = append(elems, pe)
+	}
+	return &gnmi.Path{Elem: elems}
+}
+
+// parseSegment splits a path segment into name and optional key map.
+// Examples:
+//
+//	"interface[name=ae1]" -> name:"interface", keys:{"name":"ae1"}
+//	"subinterface[index=0]" -> name:"subinterface", keys:{"index":"0"}
+//	"seg[k=v][x=y]" -> name:"seg", keys:{k:v, x:y}
+//	"seg[k=v,x=y]" -> name:"seg", keys:{k:v, x:y}
+func parseSegment(segment string) (string, map[string]string) {
+	segment = strings.TrimSpace(segment)
+	if segment == "" {
+		return segment, nil
+	}
+	// Find the first '[' which indicates start of key expressions
+	name := segment
+	keysStr := ""
+	if i := strings.Index(segment, "["); i >= 0 {
+		name = segment[:i]
+		keysStr = segment[i:]
+	}
+	name = strings.TrimSpace(name)
+	if keysStr == "" {
+		return name, nil
+	}
+	keys := make(map[string]string)
+	// Iterate over bracket groups: [ ... ] [ ... ] ...
+	for len(keysStr) > 0 {
+		// Expect keysStr to start with '['
+		if keysStr[0] != '[' {
+			break
+		}
+		end := strings.IndexByte(keysStr, ']')
+		if end < 0 {
+			// Unbalanced bracket, stop parsing keys
+			break
+		}
+		inside := strings.TrimSpace(keysStr[1:end])
+		if inside != "" {
+			// Allow comma-separated pairs within the same brackets
+			pairs := strings.Split(inside, ",")
+			for _, pair := range pairs {
+				pair = strings.TrimSpace(pair)
+				if pair == "" {
+					continue
+				}
+				kv := strings.SplitN(pair, "=", 2)
+				if len(kv) != 2 {
+					continue
+				}
+				k := strings.TrimSpace(kv[0])
+				v := strings.TrimSpace(kv[1])
+				// Trim optional quotes around value
+				v = strings.Trim(v, "'\"")
+				if k != "" {
+					keys[k] = v
+				}
+			}
+		}
+		// Move to the remaining string after this ']' and continue
+		if end+1 >= len(keysStr) {
+			keysStr = ""
+		} else {
+			keysStr = keysStr[end+1:]
+		}
+	}
+	return name, keys
 }
 
 func buildFullPath(prefix *gnmi.Path, path *gnmi.Path) string {
@@ -255,6 +353,13 @@ func main() {
 
 	client := gnmi.NewGNMIClient(conn)
 
+	// Resolve path from environment variable with default fallback
+	gnmiPathStr := os.Getenv("GNMI_PATH")
+	if gnmiPathStr == "" {
+		gnmiPathStr = defaultPath
+	}
+	parsedPath := stringToGNMIPath(gnmiPathStr)
+
 	// Subscribe ONCE to /interfaces using JSON encoding
 	subReq := &gnmi.SubscribeRequest{
 		Request: &gnmi.SubscribeRequest_Subscribe{
@@ -262,7 +367,7 @@ func main() {
 				Mode:     gnmi.SubscriptionList_ONCE,
 				Encoding: gnmi.Encoding_PROTO,
 				Subscription: []*gnmi.Subscription{
-					{Path: &gnmi.Path{Elem: []*gnmi.PathElem{{Name: "interfaces"}}}, Mode: gnmi.SubscriptionMode_TARGET_DEFINED},
+					{Path: parsedPath, Mode: gnmi.SubscriptionMode_TARGET_DEFINED},
 				},
 			},
 		},
@@ -276,10 +381,21 @@ func main() {
 		logrus.Fatalf("subscribe send error: %v", err)
 	}
 
-	fmt.Println("===== Subscribe(ONCE) /interfaces =====")
+	fmt.Printf("===== Subscribe(ONCE) %s =====\n", gnmiPathStr)
 	for {
 		resp, err := stream.Recv()
 		if err != nil {
+			// Treat normal completion cases as graceful termination
+			if err == io.EOF {
+				fmt.Println("===== End (EOF) =====")
+				return
+			}
+			if s, ok := status.FromError(err); ok {
+				if s.Code() == codes.DeadlineExceeded || s.Code() == codes.Canceled {
+					fmt.Printf("===== End (%s) =====\n", s.Code().String())
+					return
+				}
+			}
 			logrus.Fatalf("subscribe recv error: %v", err)
 		}
 		switch m := resp.Response.(type) {
