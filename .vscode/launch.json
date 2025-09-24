@@ -9,8 +9,8 @@
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${workspaceFolder}/cmd/PathInterfaces",
-            "cwd": "${workspaceFolder}"
+            "program": "${workspaceFolder}/cmd/status_interfaces",
+            "cwd": "${workspaceFolder}/cmd/status_interfaces"
         },
         {
             "name": "Launch main.go (root)",
