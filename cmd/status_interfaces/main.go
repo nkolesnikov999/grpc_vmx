@@ -88,7 +88,7 @@ func getOrCreateDeviceState(deviceIP string) *DeviceState {
 }
 
 // updateInterfaceState updates the state of an interface and returns change information
-func updateInterfaceState(deviceIP, interfaceName, statusType, newStatus string) (bool, string, string) {
+func updateInterfaceState(deviceIP, interfaceName, statusType, newStatus string, updateTime time.Time) (bool, string, string) {
 	stateMutex.Lock()
 	defer stateMutex.Unlock()
 
@@ -108,7 +108,7 @@ func updateInterfaceState(deviceIP, interfaceName, statusType, newStatus string)
 		ifaceState = &InterfaceState{
 			AdminStatus: "",
 			OperStatus:  "",
-			LastUpdate:  time.Now(),
+			LastUpdate:  updateTime,
 		}
 		deviceState.States[interfaceName] = ifaceState
 	}
@@ -122,14 +122,14 @@ func updateInterfaceState(deviceIP, interfaceName, statusType, newStatus string)
 		if oldStatus != newStatus {
 			changed = true
 			ifaceState.AdminStatus = newStatus
-			ifaceState.LastUpdate = time.Now()
+			ifaceState.LastUpdate = updateTime
 		}
 	} else if statusType == "oper-status" {
 		oldStatus = ifaceState.OperStatus
 		if oldStatus != newStatus {
 			changed = true
 			ifaceState.OperStatus = newStatus
-			ifaceState.LastUpdate = time.Now()
+			ifaceState.LastUpdate = updateTime
 		}
 	}
 
@@ -137,7 +137,7 @@ func updateInterfaceState(deviceIP, interfaceName, statusType, newStatus string)
 }
 
 // printStatusChange prints detailed information about interface status changes
-func printStatusChange(deviceIP string, prefix *gnmi.Path, u *gnmi.Update) {
+func printStatusChange(deviceIP string, prefix *gnmi.Path, u *gnmi.Update, updateTime time.Time) {
 	// Extract interface name and status type from the path
 	pathStr := buildFullPath(prefix, u.Path)
 
@@ -186,14 +186,18 @@ func printStatusChange(deviceIP string, prefix *gnmi.Path, u *gnmi.Update) {
 		return // Unsupported value type
 	}
 
+	// Use timestamp from gNMI SubscribeResponse (more accurate than current time)
+	timestamp := updateTime
+
 	// Update state and check for changes
-	changed, oldStatus, _ := updateInterfaceState(deviceIP, interfaceName, statusType, newStatus)
+	changed, oldStatus, _ := updateInterfaceState(deviceIP, interfaceName, statusType, newStatus, timestamp)
 
 	if changed {
 		// Only show actual changes, not duplicate notifications
-		timestamp := time.Now().Format("2006-01-02 15:04:05")
+		// Use timestamp from gNMI update for more accurate timing
+		timestampStr := timestamp.Format("2006-01-02 15:04:05")
 		changeMsg := fmt.Sprintf("🔄 [%s] %s | Interface: %s | %s: %s → %s",
-			timestamp, deviceIP, interfaceName, statusType, oldStatus, newStatus)
+			timestampStr, deviceIP, interfaceName, statusType, oldStatus, newStatus)
 		fmt.Println(changeMsg)
 	}
 	// Remove the else block to avoid showing duplicate status messages
@@ -377,8 +381,17 @@ func monitorDevice(ctx context.Context, device DeviceInfo) error {
 				// Process the response
 				switch m := resp.Response.(type) {
 				case *gnmi.SubscribeResponse_Update:
+					// Get timestamp from SubscribeResponse (more accurate than current time)
+					var updateTime time.Time
+					if m.Update.Timestamp > 0 {
+						// gNMI timestamp is in nanoseconds since Unix epoch
+						updateTime = time.Unix(0, m.Update.Timestamp)
+					} else {
+						// Fallback to current time if no timestamp
+						updateTime = time.Now()
+					}
 					for _, u := range m.Update.Update {
-						printStatusChange(device.IP, m.Update.Prefix, u)
+						printStatusChange(device.IP, m.Update.Prefix, u, updateTime)
 					}
 				case *gnmi.SubscribeResponse_SyncResponse:
 					fmt.Printf("===== Sync completed for %s =====\n", device.IP)
