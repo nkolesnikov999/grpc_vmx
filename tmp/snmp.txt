@@ -1,0 +1,65 @@
+                                      
+admin@dc2-cr12.sma> show configuration snmp  
+interface ge-0/0/6.0;
+community public {
+    authorization read-only;
+    clients {
+        10.0.0.0/8;
+    }
+}
+community test {
+    authorization read-only;
+    clients {
+        10.0.0.0/8;
+    }
+    routing-instance control_vmx {
+        clients {
+            10.0.0.0/8;
+        }
+    }
+}
+trap-options {
+    source-address lo0;
+}
+trap-group nms_traps {
+    version v2;
+    categories {
+        chassis;
+        link;
+        routing;
+        configuration;
+    }
+    targets {
+        10.126.0.13;
+    }
+}
+routing-instance-access;
+
+admin@dc2-cr12.sma> show configuration routing-instances 
+control_vmx {
+    instance-type virtual-router;
+    routing-options {
+        static {
+            route 0.0.0.0/0 next-hop 10.27.200.254;
+        }
+    }
+    interface ge-0/0/6.0;
+}
+mgmt_junos {
+    routing-options {
+        static {
+            route 0.0.0.0/0 next-hop 10.0.0.2;
+        }
+    }
+    description management-instance;
+}
+
+admin@dc2-cr12.sma> show configuration interfaces ge-0/0/6 
+unit 0 {
+    family inet {
+        address 10.27.200.102/24;
+    }
+}
+
+admin@dc2-cr12.sma> 
+
