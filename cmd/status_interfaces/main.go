@@ -505,13 +505,9 @@ func main() {
 
 	// Wait for all devices to complete or error
 	for i := 0; i < len(devices); i++ {
-		select {
-		case err := <-done:
-			if err != nil && err != context.Canceled {
-				logrus.Errorf("Device monitoring error: %v", err)
-			}
-		case <-time.After(5 * time.Minute):
-			logrus.Warn("Timeout waiting for device responses")
+		err := <-done
+		if err != nil && err != context.Canceled {
+			logrus.Errorf("Device monitoring error: %v", err)
 		}
 	}
 
