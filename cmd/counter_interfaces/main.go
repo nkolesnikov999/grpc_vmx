@@ -33,6 +33,7 @@ const (
 // Global state tracking for all devices
 var deviceStates = make(map[string]*DeviceState)
 var stateMutex sync.RWMutex
+var globalMaxRate float64 // Global maximum rate across all interfaces
 
 // Config represents the configuration structure
 type Config struct {
@@ -55,6 +56,7 @@ type InterfaceCounter struct {
 	LastUpdate     time.Time
 	PreviousTime   time.Time
 	LastDeviceTime time.Time // Time from device for last update
+	MaxRate        float64   // Maximum rate achieved in bps
 }
 
 // DeviceState tracks the counter state of all interfaces on a device
@@ -95,7 +97,7 @@ func getOrCreateDeviceState(deviceIP string) *DeviceState {
 }
 
 // updateInterfaceCounter updates the counter state of an interface and returns change information
-func updateInterfaceCounter(deviceIP, interfaceName string, newOutOctets uint64, updateTime time.Time) (bool, uint64, time.Duration) {
+func updateInterfaceCounter(deviceIP, interfaceName string, newOutOctets uint64, updateTime time.Time) (bool, uint64, time.Duration, bool) {
 	stateMutex.Lock()
 	defer stateMutex.Unlock()
 
@@ -117,9 +119,10 @@ func updateInterfaceCounter(deviceIP, interfaceName string, newOutOctets uint64,
 			LastUpdate:     updateTime,
 			PreviousTime:   time.Time{}, // Zero time for first update
 			LastDeviceTime: updateTime,
+			MaxRate:        0, // Initialize max rate to 0
 		}
 		deviceState.Counters[interfaceName] = ifaceCounter
-		return true, 0, 0 // First time seeing this interface
+		return true, 0, 0, false // First time seeing this interface
 	}
 
 	// Check for changes
@@ -127,10 +130,26 @@ func updateInterfaceCounter(deviceIP, interfaceName string, newOutOctets uint64,
 	changed := oldOutOctets != newOutOctets
 
 	var timeDiff time.Duration
+	var isNewMaxRate bool
 	if changed {
 		// Calculate time difference using device timestamps
 		if !ifaceCounter.LastDeviceTime.IsZero() {
 			timeDiff = updateTime.Sub(ifaceCounter.LastDeviceTime)
+		}
+
+		// Calculate current rate and check if it's a new global maximum
+		if timeDiff > 0 {
+			delta := newOutOctets - oldOutOctets
+			currentRate := float64(delta*8) / timeDiff.Seconds()
+			// Update local max rate
+			if currentRate > ifaceCounter.MaxRate {
+				ifaceCounter.MaxRate = currentRate
+			}
+			// Check if this is a new global maximum
+			if currentRate > globalMaxRate {
+				globalMaxRate = currentRate
+				isNewMaxRate = true
+			}
 		}
 
 		// Update counter state
@@ -147,7 +166,7 @@ func updateInterfaceCounter(deviceIP, interfaceName string, newOutOctets uint64,
 		ifaceCounter.LastDeviceTime = updateTime
 	}
 
-	return changed, oldOutOctets, timeDiff
+	return changed, oldOutOctets, timeDiff, isNewMaxRate
 }
 
 // printCounterUpdate prints detailed information about interface counter updates
@@ -197,7 +216,7 @@ func printCounterUpdate(deviceIP string, prefix *gnmi.Path, u *gnmi.Update, upda
 	timestamp := updateTime
 
 	// Update counter and check for changes
-	changed, oldOutOctets, timeDiff := updateInterfaceCounter(deviceIP, interfaceName, newOutOctets, timestamp)
+	changed, oldOutOctets, timeDiff, isNewMaxRate := updateInterfaceCounter(deviceIP, interfaceName, newOutOctets, timestamp)
 
 	// Always show counter updates (not just changes) since we want periodic updates
 	timestampStr := timestamp.Format("2006-01-02 15:04:05")
@@ -223,16 +242,22 @@ func printCounterUpdate(deviceIP string, prefix *gnmi.Path, u *gnmi.Update, upda
 		}
 	}
 
+	// Add max rate indicator if this is a new maximum
+	maxRateIndicator := ""
+	if isNewMaxRate {
+		maxRateIndicator = " <<<<<<"
+	}
+
 	if changed {
 		// Show change with delta, time difference and rate
 		delta := newOutOctets - oldOutOctets
-		changeMsg := fmt.Sprintf("📊 [%s] %s | Interface: %s | out-octets: %d (Δ%d, Δt: %s, rate: %s)",
-			timestampStr, ip, interfaceName, newOutOctets, delta, timeDiffStr, rateStr)
+		changeMsg := fmt.Sprintf("📊 [%s] %s | Interface: %s | out-octets: %d (Δ%d, Δt: %s, rate: %s)%s",
+			timestampStr, ip, interfaceName, newOutOctets, delta, timeDiffStr, rateStr, maxRateIndicator)
 		fmt.Println(changeMsg)
 	} else {
 		// Show periodic update (no change) with time difference and rate
-		updateMsg := fmt.Sprintf("📊 [%s] %s | Interface: %s | out-octets: %d (Δt: %s, rate: %s)",
-			timestampStr, ip, interfaceName, newOutOctets, timeDiffStr, rateStr)
+		updateMsg := fmt.Sprintf("📊 [%s] %s | Interface: %s | out-octets: %d (Δt: %s, rate: %s)%s",
+			timestampStr, ip, interfaceName, newOutOctets, timeDiffStr, rateStr, maxRateIndicator)
 		fmt.Println(updateMsg)
 	}
 }
