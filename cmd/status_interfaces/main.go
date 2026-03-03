@@ -12,6 +12,7 @@ import (
 
 	"strings"
 
+	"github.com/IBM/sarama"
 	"github.com/openconfig/gnmi/proto/gnmi"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
@@ -22,6 +23,11 @@ import (
 
 const (
 	gnmiPort = ":57400"
+)
+
+const (
+	brokerAddress = "kafka:9092"
+	topicName     = "interface-status"
 )
 
 // Global state tracking for all devices
@@ -137,7 +143,7 @@ func updateInterfaceState(deviceIP, interfaceName, statusType, newStatus string,
 }
 
 // printStatusChange prints detailed information about interface status changes
-func printStatusChange(deviceIP string, prefix *gnmi.Path, u *gnmi.Update, updateTime time.Time) {
+func printStatusChange(producer sarama.SyncProducer, deviceIP string, prefix *gnmi.Path, u *gnmi.Update, updateTime time.Time) {
 	// Extract interface name and status type from the path
 	pathStr := buildFullPath(prefix, u.Path)
 
@@ -199,6 +205,7 @@ func printStatusChange(deviceIP string, prefix *gnmi.Path, u *gnmi.Update, updat
 		changeMsg := fmt.Sprintf("🔄 [%s] %s | Interface: %s | %s: %s → %s",
 			timestampStr, deviceIP, interfaceName, statusType, oldStatus, newStatus)
 		fmt.Println(changeMsg)
+		sendMessageToKafka(producer, changeMsg)
 	}
 	// Remove the else block to avoid showing duplicate status messages
 }
@@ -278,7 +285,7 @@ func createInterfacePath(interfaceName, statusType string) *gnmi.Path {
 }
 
 // monitorDevice connects to a device and monitors interface statuses with retry logic
-func monitorDevice(ctx context.Context, device DeviceInfo) error {
+func monitorDevice(ctx context.Context, device DeviceInfo, producer sarama.SyncProducer) error {
 	const maxRetries = 5
 	const retryDelay = 10 * time.Second
 
@@ -391,7 +398,7 @@ func monitorDevice(ctx context.Context, device DeviceInfo) error {
 						updateTime = time.Now()
 					}
 					for _, u := range m.Update.Update {
-						printStatusChange(device.IP, m.Update.Prefix, u, updateTime)
+						printStatusChange(producer, device.IP, m.Update.Prefix, u, updateTime)
 					}
 				case *gnmi.SubscribeResponse_SyncResponse:
 					fmt.Printf("===== Sync completed for %s =====\n", device.IP)
@@ -448,6 +455,37 @@ func buildFullPath(prefix *gnmi.Path, path *gnmi.Path) string {
 	return fullPath
 }
 
+func newSyncProducer(brokerList []string) (sarama.SyncProducer, error) {
+	config := sarama.NewConfig()
+	config.Producer.RequiredAcks = sarama.WaitForAll
+	config.Producer.Retry.Max = 5
+	config.Producer.Return.Successes = true
+
+	producer, err := sarama.NewSyncProducer(brokerList, config)
+	if err != nil {
+		return nil, err
+	}
+
+	return producer, nil
+}
+
+func sendMessageToKafka(producer sarama.SyncProducer, message string) {
+	msg := &sarama.ProducerMessage{
+		Topic: topicName,
+		Value: sarama.StringEncoder(message),
+	}
+
+	logrus.Infof("sending message to topic %s: %s", topicName, message)
+
+	partition, offset, err := producer.SendMessage(msg)
+	if err != nil {
+		logrus.Printf("failed to send message to Kafka: %v", err)
+		return
+	}
+
+	logrus.Printf("message successfully sent to partition %d with offset %d", partition, offset)
+}
+
 func main() {
 	logrus.SetLevel(logrus.DebugLevel)
 	logrus.SetFormatter(&logrus.TextFormatter{FullTimestamp: true})
@@ -488,6 +526,17 @@ func main() {
 
 	fmt.Printf("Starting interface status monitoring for %d devices...\n", len(devices))
 
+	producer, err := newSyncProducer([]string{brokerAddress})
+	if err != nil {
+		logrus.Fatalf("failed to start producer: %v", err)
+	}
+
+	defer func() {
+		if err = producer.Close(); err != nil {
+			logrus.Fatalf("failed to close producer: %v", err)
+		}
+	}()
+
 	// Create context with cancellation
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
@@ -498,7 +547,7 @@ func main() {
 	// Start monitoring for each device in separate goroutines
 	for _, device := range devices {
 		go func(d DeviceInfo) {
-			err := monitorDevice(ctx, d)
+			err := monitorDevice(ctx, d, producer)
 			done <- err
 		}(device)
 	}
